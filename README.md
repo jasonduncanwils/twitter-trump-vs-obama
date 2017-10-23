@@ -23,6 +23,7 @@ This pulls the most recent 200 tweets for both Donald Trump and Barack Obama and
 
 ## Results example from 10/23/2017
 
+x
 ===============================
 BarackObama
 ===============================
@@ -54,8 +55,11 @@ BarackObama
 ('one', 8)
 ('country', 8)
 ('climate', 8)
+
 MAKE AMERICA GREAT AGAIN count: 0
 FAKE NEWS count: 0
+
+x
 ===============================
 realDonaldTrump
 ===============================
@@ -76,5 +80,6 @@ realDonaldTrump
 ('cuts', 8)
 ('massive', 8)
 ('clinton', 8)
+
 MAKE AMERICA GREAT AGAIN count: 0
 FAKE NEWS count: 15
