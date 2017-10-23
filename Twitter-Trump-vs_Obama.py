@@ -1,6 +1,6 @@
 '''-----------------------------------------------------
-Retrieve both Barack's tweets and Trumpster's tweets and
-determine the most used words
+Retrieve both Barack's tweets and Donald Trump's tweets
+to determine the most frequently used words
 ------------------------------------------------------'''
 import json  # Import package to process JSON data
 from twitter import Twitter, OAuth  # Import package for twitter handling
@@ -39,11 +39,11 @@ Retrieve tweets
 barack_twitter_handle = "BarackObama"
 trump_twitter_handle = "realDonaldTrump"
 
-ACCESS_TOKEN = raw_input('Access token:')
-ACCESS_SECRET = raw_input('Access secret:')
-API_KEY = raw_input('API key:')
-API_SECRET = raw_input('API secret:')
-File_path_for_tweets = raw_input('Folder for tweet storage:')
+ACCESS_TOKEN = raw_input('Twitter access token:')
+ACCESS_SECRET = raw_input('Twitter access secret:')
+API_KEY = raw_input('Twitter API key:')
+API_SECRET = raw_input('Twitter API secret:')
+File_path_for_tweets = raw_input('Local folder for tweet storage:')
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, API_KEY, API_SECRET)
 twitter = Twitter(auth=oauth)  # Connect to Twitter REST API
