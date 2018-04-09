@@ -1,6 +1,6 @@
-# Project Title
+# Project Title and Description
 
-This pulls the most recent 200 tweets for both Donald Trump and Barack Obama and analyzes which non-filler words are used most frequently by each of them.
+Twitter Donald Trump vs Barack Obama: This pulls the most recent 200 tweets for both Donald Trump and Barack Obama and analyzes which non-filler words are used most frequently by each of them.
 
 ## Prerequisites
 
